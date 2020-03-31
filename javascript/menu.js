@@ -1,0 +1,10 @@
+stm_bm(["menu5d94",800,"","blank.gif",0,"","",1,0,250,0,1000,1,1,1,"","900",0,0,1,2,"default","hand",""],this);
+stm_bp("p0",[0,4,0,0,0,3,0,0,100,"",-2,"",-2,50,0,0,"#999999","transparent","hori%20menu%20bacgrd.gif",3,0,0,"#000000"]);
+stm_ai("p0i0",[0,"HOME","","",-1,-1,0,"index.html","_self","","","","",0,0,0,"","",0,0,0,1,1,"#E6EFF9",1,"#FFD602",1,"","",3,3,0,0,"#E6EFF9","#000000","#FFFFFF","#8ba621","bold 8pt Arabic Transparent","bold 8pt Arabic Transparent",0,0],120,33);
+stm_aix("p0i1","p0i0",[0,"ABOUT ME","","",-1,-1,0,"aboutme.html"],120,33);
+stm_aix("p0i2","p0i0",[0,"MY CLICKS","","",-1,-1,0,"myclicks.html"],120,33);
+stm_aix("p0i3","p0i0",[0,"SERVICES","","",-1,-1,0,"services.html"],120,33);
+stm_aix("p0i4","p0i0",[0,"REACH ME","","",-1,-1,0,"reachme.php"],120,33);
+stm_aix("p0i5","p0i0",[0,"GUEST BOOK","","",-1,-1,0,"guestbook.html"],120,33);
+stm_ep();
+stm_em();

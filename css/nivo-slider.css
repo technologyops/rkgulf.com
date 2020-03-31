@@ -1,0 +1,132 @@
+/*
+ * jQuery Nivo Slider v2.4
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2011, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+ 
+ 
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+	
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	
+	
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:98;
+	display:none;
+}
+/* The slices in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:50;
+	height:100%;
+	
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	top:0px;
+	background:url(file:///C|/Users/Sarin/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/roung-text-bg.png) 0 0 repeat-x;
+	color:#fff;
+	width:100%;
+	z-index:95;
+	text-align:center;
+	font-size:14px;
+	line-height:1.2em;
+	
+	
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:39.8%;
+	z-index:95;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav{
+	position:absolute;
+	bottom:0px;
+	height:28px;
+	z-index:80;
+	text-align:center;
+	right:0px;
+	left:0px;
+	
+}
+.nivo-control{
+	font-size: 0;
+	display:block;
+	line-height: 0;
+}
+*+ html .nivo-controlNav {text-indent:inherit;}
+
+.nivo-controlNav a:hover{
+}
+
+.nivo-controlNav a {
+	
+}
+.nivo-controlNav a.active, .nivo-controlNav a:hover {
+}
+ .nivo-controlNav img {
+    display: inline-block;
+    margin-right: 12px;
+    position: relative;
+	
+}
+.nivo-directionNav a {
+	display:block;
+	width:22px;
+	height:32px;
+	text-indent:-9999px;
+	border:0;
+	position:absolute;
+	top:50%;
+	margin-top:-32px;
+}
+a.nivo-nextNav {
+	right:10px;
+	background:url(file:///C|/Users/Sarin/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/next.png) 0 0 no-repeat;
+}
+a.nivo-prevNav {
+	left:10px;
+	background:url(file:///C|/Users/Sarin/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/prev.png) 0 0 no-repeat;
+}

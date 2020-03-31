@@ -1,0 +1,76 @@
+div.twitter {
+	overflow:hidden;
+	position:relative;
+}
+
+p.preloader {
+	margin: 0;
+	padding: 5px;
+	/* generate your own loader gif: http://www.ajaxload.info */
+}
+
+ul.twitter_update_list {
+	margin: 0;
+	list-style-type: none;
+}
+
+ul.twitter_update_list li {
+	margin: 0;
+	padding-bottom:16px;
+	background:url(file:///C|/Users/Sarin/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/twitter-bg.png) right bottom no-repeat;
+	margin-top:28px;
+}	
+	ul.twitter_update_list li:hover {
+	background:url(file:///C|/Users/Sarin/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/twitter-bg-hov.png) right bottom no-repeat;
+}
+ul.twitter_update_list li:first-child{
+	margin-top:0px;
+}
+ul.twitter_update_list li div{
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background:#c9c9c9;
+	padding:12px 17px 16px 16px; 
+}
+	ul.twitter_update_list li:hover div{
+	color:#fff;
+	background:#819a70;
+}
+ul.twitter_update_list a {
+	/* timestamp link */
+	color:#1f1f1f;
+	text-decoration:none;
+}
+ul.twitter_update_list li a {
+	color:#1f1f1f;
+	display:inline-block;
+	text-decoration:none;
+}
+ul.twitter_update_list li a:hover{
+	text-decoration:underline;
+}
+ul.twitter_update_list li a.twitt-links{
+	display:none;
+}
+.background ul.twitter_update_list li span a, .background ul.twitter_update_list li>a{}
+ul.twitter_update_list li span a:hover {text-decoration:underline;}
+ul.twitter_update_list li span {
+	display: block;
+}
+
+
+
+ul.twitter_update_list li.firstTweet {
+}
+
+ul.twitter_update_list li.lastTweet {
+	border-bottom: none;
+}
+
+a.profileLink {
+	display: none;
+	padding: 5px;
+	color: #fff;
+	background-color: #888;
+}

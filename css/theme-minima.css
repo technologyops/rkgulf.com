@@ -1,0 +1,111 @@
+/*
+	AnythingSlider v1.5.10 minima Theme
+*/
+
+/****** SET COLORS HERE *******/
+/* Default State */
+anythingSlider-minima{
+	padding-bottom:20px;
+}
+div.anythingSlider-minima .anythingWindow {
+	border:none;
+}
+div.anythingSlider-minima .thumbNav a {
+}
+div.anythingSlider-minima .start-stop {
+}
+div.anythingSlider-minima .start-stop.playing {
+}
+div.anythingSlider-minima .start-stop:hover, div.anythingSlider-minima .start-stop.hover {
+}
+
+/* Active State */
+div.anythingSlider-minima.activeSlider .anythingWindow {
+}
+div.anythingSlider-minima.activeSlider .thumbNav a {
+	text-align:center;
+	cursor:pointer;
+	width:16px;
+	height:16px;
+	font-size:0px;
+	line-height:0px;
+	display:inline-block!important;
+	background:url(file:///C|/Users/Sarin/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/pag.png) 0 0 no-repeat;
+	}
+div.anythingSlider-minima.activeSlider .thumbNav a:hover, div.anythingSlider-minima.activeSlider .thumbNav a.cur {
+	background:url(file:///C|/Users/Sarin/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/images/pag-hover.png) 0 0 no-repeat;
+}
+div.anythingSlider-minima.activeSlider .start-stop.playing {
+	display:none;
+}
+div.anythingSlider-minima .start-stop:hover, div.anythingSlider-minima .start-stop.hover {
+}
+
+/* Navigation Arrows */
+div.anythingSlider-minima .arrow {
+	top: 50%;
+	position: absolute;
+	display: block;
+	z-index: 100;
+}
+div.anythingSlider-minima .arrow a {
+	display: block;
+	height: 95px;
+	margin-top: -47px; /* half height of image */
+	width: 45px;
+	outline: 0;
+}
+
+div.anythingSlider-minima .forward { right: 0; }
+div.anythingSlider-minima .back { left: 0; }
+div.anythingSlider-minima .forward a { background-position: right bottom; }
+div.anythingSlider-minima .back a { background-position: left bottom; }
+div.anythingSlider-minima .forward a:hover, div.anythingSlider-minima .forward a.hover { background-position: right top; }
+div.anythingSlider-minima .back a:hover, div.anythingSlider-minima .back a.hover { background-position: left top; }
+
+/* Navigation Links */
+div.anythingSlider-minima .anythingControls {
+}
+div.anythingSlider-minima .thumbNav {
+	bottom:0px;
+	width:100%;
+	text-align:center;
+}
+div.anythingSlider-minima .thumbNav li {
+	display:inline-block;
+	overflow:hidden;
+	width:16px;
+	height:16px;
+	margin-right:7px;
+}
+div.anythingSlider-minima .thumbNav a {
+	
+}
+
+div.anythingSlider-minima .thumbNav a:hover, div.anythingSlider-minima .thumbNav a.cur {
+	
+}
+
+/* slider autoplay right-to-left, reverse order of nav links to look better */
+div.anythingSlider-minima.rtl .thumbNav a { float: right; } /* reverse order of nav links */
+div.anythingSlider-minima.rtl .thumbNav { 
+	
+}    /* move nav link group to left */
+/* div.anythingSlider-minima.rtl .start-stop { float: right; } */ /* move start/stop button - in case you want to switch sides */
+
+/* Autoplay Start/Stop button */
+div.anythingSlider-minima .start-stop {
+	display:none;
+}
+
+/* Extra - replace defaults */
+div.anythingSlider-minima {
+	padding: 6px 23px 25px 23px;
+}
+
+/* text indent moved to span inside "a", for IE7; apparently, a negative text-indent on an "a" link moves the link as well as the text */
+div.anythingSlider-minima .arrow a span, div.anythingSlider-minima .thumbNav a span, div.anythingSlider-minima .start-stop span {
+	display: block;
+	line-height: 1px; /* needed for IE7 */
+	text-indent: -9999px;
+}
